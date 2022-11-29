@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "suoragmbh/apm-wrapper",
+    "description": "This is a wrapper for APMs in PHP",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "SuoraGmbH",
+        "apm-wrapper"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/suoragmbh/apm-wrapper",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Hans-Christian Otto",
+            "email": "c.otto@suora.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Suora\\ApmWrapper\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Suora\\ApmWrapper\\Tests\\": "tests"
         }
     },
     "scripts": {
