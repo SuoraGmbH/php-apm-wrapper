@@ -20,7 +20,7 @@
     "require-dev": {
         "laravel/pint": "^1.2",
         "pestphp/pest": "^1.20",
-        "spatie/ray": "^1.28"
+        "tideways/ext-tideways-stubs": "^5.5"
     },
     "autoload": {
         "psr-4": {
