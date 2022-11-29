@@ -3,9 +3,9 @@
 
 # This is a wrapper for APMs in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/suoragmbh/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
 [![Tests](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/suoragmbh/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
+[![Total Downloads](https://img.shields.io/packagist/dt/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
 
 This package is work in progress and might never be production ready.
 
@@ -14,7 +14,7 @@ This package is work in progress and might never be production ready.
 You can install the package via composer:
 
 ```bash
-composer require suoragmbh/apm-wrapper
+composer require suora/apm-wrapper
 ```
 
 ## Usage
