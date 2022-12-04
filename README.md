@@ -7,7 +7,13 @@
 [![Tests](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
 
-This package is work in progress and might never be production ready.
+Most APMs in the PHP ecosystem automatically track requests and errors. 
+However, if you implement background jobs, you might need to manually track them,
+especially if one PHP process runs multiple jobs.
+This project might help you. :)
+
+**This package is work in progress and might never be production ready.**
+
 
 ## Installation
 
@@ -20,8 +26,17 @@ composer require suora/apm-wrapper
 ## Usage
 
 ```php
-$skeleton = new Suora\ApmWrapper();
-echo $skeleton->echoPhrase('Hello, Suora!');
+$profiler = new \Suora\ApmWrapper\Profiler\AutoTideways(
+'your-token',
+'workerpool'
+);
+
+foreach ($jobs as $job) {
+    $profiler->startTransaction($job->getName());
+    $profiler->addParameter('jobId', $job->getId());
+    $job->run();
+    $profiler->endTransaction();
+}
 ```
 
 ## Testing
@@ -37,7 +52,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Credits
 
 - [Hans-Christian Otto](https://github.com/SuoraGmbH)
-- [All Contributors](../../contributors)
 
 ## License
 
