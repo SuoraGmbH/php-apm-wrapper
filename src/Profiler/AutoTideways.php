@@ -2,8 +2,6 @@
 
 namespace Suora\ApmWrapper\Profiler;
 
-use Suora\ApmWrapper\Tideways;
-
 /**
  * Automatically activates tideways profiler if it is available.
  */

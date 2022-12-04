@@ -1,6 +1,6 @@
 <?php
 
-namespace Suora\ApmWrapper;
+namespace Suora\ApmWrapper\Profiler;
 
 class Tideways extends \Suora\ApmWrapper\Profiler
 {
