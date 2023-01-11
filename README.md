@@ -3,9 +3,9 @@
 
 # This is a wrapper for APMs in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
-[![Tests](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/suoragmbh/apm-wrapper/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suoragmbh/apm-wrapper)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suora/apm-wrapper)
+[![Tests](https://github.com/SuoraGmbH/php-apm-wrapper/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/SuoraGmbH/php-apm-wrapper/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/suora/apm-wrapper.svg?style=flat-square)](https://packagist.org/packages/suora/apm-wrapper)
 
 Most APMs in the PHP ecosystem automatically track requests and errors. 
 However, if you implement background jobs, you might need to manually track them,
