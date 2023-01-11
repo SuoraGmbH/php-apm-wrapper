@@ -53,7 +53,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Credits
 
-- [Hans-Christian Otto](https://github.com/SuoraGmbH)
+- [Suora GmbH](https://github.com/SuoraGmbH)
 
 ## License
 
