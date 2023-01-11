@@ -27,14 +27,16 @@ composer require suora/apm-wrapper
 
 ```php
 $profiler = new \Suora\ApmWrapper\Profiler\AutoTideways(
-'your-token',
-'workerpool'
+    'your-token',
+    'workerpool'
 );
 
 foreach ($jobs as $job) {
     $profiler->startTransaction($job->getName());
     $profiler->addParameter('jobId', $job->getId());
+
     $job->run();
+
     $profiler->endTransaction();
 }
 ```
