@@ -23,6 +23,7 @@ class Tideways extends \Suora\ApmWrapper\Profiler
         }
 
         \Tideways\Profiler::start($options);
+        $this->setTransactionName($transactionName);
     }
 
     public function setTransactionName(string $name): void
